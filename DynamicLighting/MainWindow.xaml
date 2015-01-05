@@ -1,0 +1,52 @@
+﻿<Window x:Class="DynamicLighting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Width="1050" Height="800">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" >
+            <StackPanel Orientation="Horizontal">
+                <Image Name="OriginalImg" HorizontalAlignment="Center"></Image>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Normal Map Strength:</Label>
+                    <Slider Name="StrengthSlider" Width="200" Minimum="0.5" Maximum="5" IsSnapToTickEnabled="True" TickFrequency="0.5"></Slider>
+                    <Label Name="StrengthLabel"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Light Vector X:</Label>
+                    <Slider Name="LightVectorXSlider" Width="200" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" TickFrequency="0.1"></Slider>
+                    <Label Name="LightXLabel"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Light Vector Y:</Label>
+                    <Slider Name="LightVectorYSlider" Width="200" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" TickFrequency="0.1"></Slider>
+                    <Label Name="LightYLabel"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Light Vector Z:</Label>
+                    <Slider Name="LightVectorZSlider" Width="200" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" TickFrequency="0.1"></Slider>
+                    <Label Name="LightZLabel"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Eye Vector X:</Label>
+                    <Slider Name="EyeVectorXSlider" Width="200" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" TickFrequency="0.1"></Slider>
+                    <Label Name="EyeXLabel"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Eye Vector Y:</Label>
+                    <Slider Name="EyeVectorYSlider" Width="200" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" TickFrequency="0.1"></Slider>
+                    <Label Name="EyeYLabel"></Label>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" >
+                    <Label>Eye Vector Z:</Label>
+                    <Slider Name="EyeVectorZSlider" Width="200" Minimum="-1" Maximum="1" IsSnapToTickEnabled="True" TickFrequency="0.1"></Slider>
+                    <Label Name="EyeZLabel"></Label>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Image Name="ImgControl" HorizontalAlignment="Center"></Image>
+        </StackPanel>
+    </StackPanel>
+</Window>

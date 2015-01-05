@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynamicLighting</name>
+    </assembly>
+    <members>
+        <member name="T:DynamicLighting.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:DynamicLighting.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:DynamicLighting.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:DynamicLighting.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:DynamicLighting.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:DynamicLighting.Pixel.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Constructor.</summary>
+        </member>
+        <member name="M:DynamicLighting.Pixel.Map(System.Double)">
+            <summary>Converts given number to a value in a range of [0,255].</summary>
+        </member>
+        <member name="M:DynamicLighting.Pixel.Unmap(System.Byte)">
+            <summary>Converts given number to a value in a range of [-1,1].</summary>
+        </member>
+        <member name="M:DynamicLighting.Pixel.Mean(DynamicLighting.Pixel[])">
+            <summary>Calculates the mean value of the given pixels.</summary>
+        </member>
+        <member name="P:DynamicLighting.Pixel.R">
+            <summary>Red value of the pixel.</summary>
+        </member>
+        <member name="P:DynamicLighting.Pixel.G">
+            <summary>Green value of the pixel.</summary>
+        </member>
+        <member name="P:DynamicLighting.Pixel.B">
+            <summary>Blue value of the pixel.</summary>
+        </member>
+        <member name="P:DynamicLighting.Pixel.A">
+            <summary>Alpha value of the pixel.</summary>
+        </member>
+        <member name="P:DynamicLighting.Pixel.Intensity">
+            <summary>Intensity of the pixel which is calculated with the formula: (R+G+B)/3</summary>
+        </member>
+        <member name="F:DynamicLighting.PixelMap._pixels">
+            <summary>2D array to store pixels of the image.</summary>
+        </member>
+        <member name="M:DynamicLighting.PixelMap.#ctor(System.Int32,System.Int32)">
+            <summary>Constructor.</summary>
+        </member>
+        <member name="M:DynamicLighting.PixelMap.#ctor(System.Byte[],System.Int32,System.Int32)">
+            <summary>Constructor.</summary>
+        </member>
+        <member name="M:DynamicLighting.PixelMap.ConvertToBitmapImage">
+            <summary>Converts to WPF type BitmapImage.</summary>
+        </member>
+        <member name="M:DynamicLighting.PixelMap.Smooth">
+            <summary>Smooth effect with mean filtering.</summary>
+        </member>
+        <member name="M:DynamicLighting.PixelMap.GetNormalMap(System.Double)">
+            <summary>Gets the normal map of the image with Sobel filter.</summary>
+        </member>
+        <member name="M:DynamicLighting.PixelMap.Lighten(DynamicLighting.PixelMap,System.Windows.Media.Media3D.Vector3D,System.Windows.Media.Media3D.Vector3D)">
+            <summary>Lighthens the image with given normal map, light vector and eye vector.</summary>
+        </member>
+        <member name="P:DynamicLighting.PixelMap.Width">
+            <summary>Width of the image in pixels.</summary>
+        </member>
+        <member name="P:DynamicLighting.PixelMap.Height">
+            <summary>Height of the image in pixels.</summary>
+        </member>
+        <member name="P:DynamicLighting.PixelMap.Stride">
+            <summary>Size of one row of the image in bytes.</summary>
+        </member>
+        <member name="P:DynamicLighting.PixelMap.Size">
+            <summary>Size of the image in bytes.</summary>
+        </member>
+        <member name="P:DynamicLighting.PixelMap.Item(System.Int32,System.Int32)">
+            <summary>Get a pixel in the specified coordinates.</summary>
+        </member>
+        <member name="T:DynamicLighting.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:DynamicLighting.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:DynamicLighting.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

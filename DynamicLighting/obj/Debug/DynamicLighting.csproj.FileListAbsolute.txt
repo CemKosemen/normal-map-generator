@@ -1,0 +1,13 @@
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\bin\Debug\DynamicLighting.exe.config
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\bin\Debug\DynamicLighting.exe
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\bin\Debug\DynamicLighting.pdb
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting.csprojResolveAssemblyReference.cache
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\MainWindow.baml
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\MainWindow.g.cs
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\App.g.cs
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting_MarkupCompile.cache
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting.g.resources
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting.Properties.Resources.resources
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting.csproj.GenerateResource.Cache
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting.exe
+c:\users\cem\documents\visual studio 2013\Projects\DynamicLighting\DynamicLighting\obj\Debug\DynamicLighting.pdb
